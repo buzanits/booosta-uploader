@@ -7,11 +7,11 @@ trait webapp
 {
   protected function preparse_uploader()
   {
-    $path = 'vendor/npm-asset/dropzone/src';
+    $path = 'vendor/npm-asset/dropzone/dist';
 
     if($this->moduleinfo['uploader']):
       $this->add_preincludes("<script type='text/javascript' src='{$this->base_dir}{$path}/dropzone.js'></script>
-                           <link rel='stylesheet' href='{$this->base_dir}{$path}/dropzone.scss'>");
+                           <link rel='stylesheet' href='{$this->base_dir}{$path}/dropzone.css'>");
     endif;
   }
 }
