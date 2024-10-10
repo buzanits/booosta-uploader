@@ -24,6 +24,6 @@
     "require": {
         "php": ">=8.0.0",
         "npm-asset/dropzone": "^5.9",
-        "booosta/ui": "dev-master"
+        "booosta/ui": "^4.0"
     }
 }
